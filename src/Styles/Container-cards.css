@@ -1,0 +1,92 @@
+.shop__cards__collection{
+    position: absolute;
+    z-index: 9;
+    top: 95px;
+    left: 35px;
+    background-color: #1B1D1F;
+    margin: auto;
+    padding-bottom: 10px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.shop__container__cards{
+display: flex;
+flex-direction: column;
+gap: 25px;
+}
+
+.shop__cards__collection__container{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 45px auto;
+    gap: 40px;
+}
+
+.shop__cards__colletion__title{
+    margin-top: 15px;
+    font-size: 32px;
+    color: #FEF7EE;
+}
+
+
+.shop__cards__colletion__text{
+    color:#6F757C;
+    font-size: 16px;
+}
+
+
+.shop__cards__collection__button {
+    padding: 8px 16px;
+    font-size: 16px;
+    border-radius: 8px;
+    border:0;
+    color: #FEF7EE;
+    cursor: pointer;
+}
+
+.btn-shop{
+    background-color: #6F757C;
+}
+
+.btn-now{
+background-color: transparent;
+}
+
+@media screen and (min-width: 768px) {
+    .shop__cards__collection{
+        left: 70px;
+      
+    }
+
+    .shop__container__cards{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 20px;
+    }
+    
+
+}
+
+@media screen and (min-width: 1024px) {
+    .shop__cards__collection{
+        left: 100px;
+        gap: 40px;
+    }
+
+    .shop__container__cards{
+        gap: 40px;
+    }
+
+
+    .shop__cards__collection__container{
+        width: 50%;
+        margin: auto;
+    }
+    
+}
